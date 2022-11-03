@@ -1,0 +1,10 @@
+.create-flowy, .block {
+	background: lightblue;
+	padding: 1em;
+	border-radius: 1em;
+	display: inline-block;
+}
+  
+.create-flowy:hover, .block:hover {
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37)
+}

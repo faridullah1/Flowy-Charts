@@ -1,3 +1,25 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+
+	.layout {
+		display: flex;
+		height: calc(100% - 50px);
+
+		.side-nav {
+			display: flex;
+			flex: 0 0 15%;
+			margin-right: 1rem;
+			border-right: 1px solid #c1c1c1;
+		}
+
+		.flow-chart {
+			flex: 1;
+		}
+	}
+}
+
 .create-flowy, .block {
 	background: lightblue;
 	padding: 1em;
